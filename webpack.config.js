@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  target: 'web', // "web" | "webworker" | "node" | "async-node" | "node-webkit" | "electron-main" | "electron-renderer" | function
   entry: './src/index.js',
   mode: 'development',
   output: {
@@ -26,5 +27,8 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
     ],
+  },
+  node: {
+    fs: 'empty',
   },
 };
