@@ -5,26 +5,23 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --config webpack.server.config.js",
-    "prewatch": "yarn",
+    "prewatch": "npm",
     "watch": "webpack --config webpack.server.config.js --watch",
-    "prestart": "yarn",
+    "prestart": "npm",
     "start": "webpack-dev-server --open --config webpack.config.js"
   },
   "devDependencies": {
-    "css-loader": "2.1.0",
-    "eslint": "5.14.1",
-    "eslint-config-google": "0.12.0",
-    "eslint-loader": "2.1.2",
-    "html-loader": "0.5.5",
-    "lite-server": "2.4.0",
-    "nodemon": "1.18.10",
-    "nodemon-webpack-plugin": "4.0.7",
-    "rxjs": "6.4.0",
-    "style-loader": "0.23.1",
-    "webpack": "4.29.5",
-    "webpack-cli": "3.2.3",
-    "webpack-dev-server": "3.1.14",
-    "xmlhttprequest": "1.8.0"
-  },
-  "dependencies": {}
+    "css-loader": "7.1.2",
+    "eslint": "9.35.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-webpack-plugin": "5.0.2",
+    "html-loader": "5.1.0",
+    "nodemon": "3.1.10",
+    "nodemon-webpack-plugin": "4.8.2",
+    "rxjs": "7.8.2",
+    "style-loader": "4.0.0",
+    "webpack": "5.101.3",
+    "webpack-cli": "6.0.1",
+    "webpack-dev-server": "5.2.2"
+  }
 }
